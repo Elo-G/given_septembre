@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block style %}
+        <link rel="stylesheet" href="/style/style.css">
+    {% endblock %}
+
+    {% block title %}
+        <title> Projet Given - default </title>
+    {% endblock %}
+    
+    {% block onglet %}
+     <link rel="shortcut icone" href="./images/logoGivinOK.png">
+    {% endblock %}
+</head>
+
+<body>
+{% block header %}
+ <header>
+    <div id="divLogo"><img src=widht=200px height=90px alt="logo Given"></div>
+ </header>
+  
+{% endblock %}
+
+{% block main %} {% endblock %}
+
+
+{% block footer %}
+<footer>
+  {% include "./layouts/footer.twig" %}
+</footer>
+{% endblock %}
+
+
+{#  KIT CONTENANT DES ICONES #}
+<script src="https://kit.fontawesome.com/e4b901c667.js" crossorigin="anonymous"></script>
+{# je link le fichier script que j'utilise  pour mon form register (pour prévisualiser la photo de login uploadée) #}
+<script src="/script/script.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

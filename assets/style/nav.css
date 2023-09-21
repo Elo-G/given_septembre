@@ -1,0 +1,38 @@
+/*by lucas*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding-top: 25px;
+    
+}
+#divNav{
+    display: flex;
+    flex-direction: row;
+    height:60px;
+}
+ 
+
+.div_LinkNav{
+    display: flex;
+    flex-direction: column;
+    width:160px;
+    height: 55px;
+    align-items: center; /* aligne l'icone et le lien */
+    margin-left: 30px;
+   
+}
+
+
+nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #0bb5b2; 
+}

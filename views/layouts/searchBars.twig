@@ -1,0 +1,23 @@
+{% block style %}
+ <link rel="stylesheet" href="/style/searchBars.css">
+{% endblock %}
+
+{% block searchBars %}
+ <section id='containerSearchBars' class='Dflex_Row' >
+     <div  id="rapidResearch"class='Dflex_Row' >
+             <div id="bar_rapidResearch">
+                 <input class='bar'type="search"placeholder= "Recherche rapide" >
+             </div>
+
+             <div class= "iconResearch" > 
+                 <i class="fa-solid fa-magnifying-glass"></i>
+             </div>
+      </div>
+
+      <div id="byCategoryResearch">
+             <div id="bar_byCategoryResearch">
+                 <input class='bar'type="search" >
+             </div>   
+      </div>
+ </section>    
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "../base.twig" %}
+
+{# ds bloc style je link le fichier css que je veux appliquer pour les form #}
+{% block style %}
+ <link rel="stylesheet" href="/style/index.css">
+{% endblock %}
+
+{% block title %}
+    <title> Given - Index </title>
+{% endblock %}
+
+{% block header %}
+<header class='Dflex_Row'>
+ <div  id="divLogo"><img src="./images/logoGivinOK.png" widht=180px height=70px alt="logo Given" ></div>
+ {% include "../layouts/searchBars.twig" %}
+</header>
+{% endblock %}
+
+{% block main %}
+ <main>
+     <section>
+         <div id ='div_presentationAppli'class='Dflex_column_center'>
+             <h1>Je donne, je trouve</h1>
+             <p>Faites de la place! Donnez les objets dont vous ne vous servez plus,</p>
+             <p> trouvez gratuitement les objets dont vous avez besoin.</p>
+             <img src="/images/imgIndex.png" alt="main dans laquelle tombent des objets">
+         </div>
+     
+         <div id = 'div_btnIndex' class='Dflex_column_center'>
+             <button><a href="/login">Je me connecte</a></button>
+             <button><a href="/register"> Je m'inscris</a></button>
+         </div>
+      </section>
+ </main>
+
+{% endblock %}
+
+

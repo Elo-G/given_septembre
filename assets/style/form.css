@@ -1,0 +1,151 @@
+
+
+/*pour label: font-family: interRegular et font-size :18px , margin top entre chaque label : 20px*/
+/* boutons des formulaires :    box-shadow: 2px 2px 2px grey; cf couleur backgroung et hover */
+
+@font-face {
+	font-family: 'interRegular';
+	src: url('./font/Inter-Regular.ttf'); 
+}
+
+body{
+    margin: 0;
+    font-family: 'interRegular';
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 105px;
+    box-shadow: 2px  2px 2px 0 rgba(0,0,0,0.2);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* #divLogo{
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+    margin-bottom: 50px;
+height: 90px;
+} */
+
+h1{
+ text-align: center; 
+ color: #0bb5b2;  
+ font-size: 32px;
+}
+
+#cgu p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+
+}
+
+#invitRegister{
+    text-align: center;
+}
+
+.Sectionform{
+    margin-top: 80px;
+}
+Form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+Form label{
+
+    display: flex;
+    justify-content: center;
+    color: #0DCCC9;
+     font-family: 'interRegular';
+     font-size: 18px;  
+}
+
+form div{
+    width:100%;
+    text-align: center;
+}
+
+
+
+span{
+    width:100%;
+   color: red;
+   font-weight:bold ;
+}
+
+ input{
+    width:28%;
+    height:30px;
+    border-radius: 7px;
+    background-color: #e4e0e0;
+    border: solid #cdc9c9 1px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width:28%;
+    height:200px;
+    border-radius: 7px;
+    background-color: #e4e0e0;
+    border: solid #cdc9c9 1px;
+    margin-bottom: 15px; 
+}
+
+Form button{
+    width:10%;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'interRegular';
+    font-size: 16px;
+    color: white;
+    background-color: #0DCCC9;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 2px 2px 2px grey;
+}
+
+Form button:hover{
+    color: white;
+    background-color: #00F0FF;
+  
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+select{
+    width:28%;
+    height:30px;
+    border-radius: 7px;
+    background-color: #e4e0e0;
+    border: solid #cdc9c9 1px;
+    margin-bottom: 15px;
+}
+
+.litle_textarea{
+    width:28%;
+    height:70px;
+    border-radius: 7px;
+    background-color: #e4e0e0;
+    border: solid #cdc9c9 1px;
+    margin-bottom: 15px; 
+}
+
+
+

@@ -1,0 +1,30 @@
+footer{
+    background-color: #DCFBFA;
+    height:100px;
+    
+}
+
+#div_ml_confid_cgu{
+padding-top: 30px;
+    text-align: center;
+
+}
+
+#div_contact{
+    text-align: center;
+    margin-top:15px ;
+}
+
+a{
+ text-decoration: none;  
+ margin-left:30px;
+ color:#059795
+}
+
+a:hover{
+color: black;
+}
+
+#a_contact{
+    margin: 0;
+}

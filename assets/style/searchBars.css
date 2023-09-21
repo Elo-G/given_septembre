@@ -1,0 +1,12 @@
+.Dflex_Row{
+    display: flex;
+    flex-direction: row;
+ }
+
+ #rapidResearch{
+    margin-right: 100px;
+ }
+
+ .bar{
+    border-radius: 5px;
+ }

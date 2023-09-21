@@ -1,0 +1,78 @@
+/* ------------------------------------------------REGLAGES GENERAUX--------------------------------------------------------------- */
+
+
+body{
+    margin:0;
+}
+
+.Dflex_Row{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .Dflex_column_center{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+ }
+
+
+header{
+    height:110px;
+}
+
+#divLogo{
+    margin-top:20px ;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+#containerSearchBars{
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------MAIN-------------------------------------------------------------------- */
+
+#div_presentationAppli{
+    background-color: #16C9C6;
+    border-radius: 0px 0px 1000px 1000px / 0px 0px 200px 200px;
+}
+
+#div_presentationAppli img{
+margin:auto
+}
+
+h1{
+    text-align: center;  
+    color:white
+}
+
+p{
+    text-align: center;
+}
+
+#div_btnIndex{
+align-items: center;
+margin-bottom: 41px;
+}
+
+button{
+    width:10%;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'interRegular';
+    font-size: 16px;
+    color: white;
+    background-color: #0DCCC9;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 2px 2px 2px grey;
+}
+
+button:hover{
+    color: white;
+    background-color: #00F0FF;
+}
+
+/* ----------------------------------------------------FOOTER------------------------------------------------------------------ */
